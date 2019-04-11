@@ -7,16 +7,18 @@
 	<form action="/create" method="POST">
 		<p>Sprint Name : 
 		<input type="text" name="sprint"><br> </p>
-		<p>Planing Meeting
+		<p>Planing Meeting Duration : 
 		<input type="numbers" name="plan"><br>  </p>
-		<p>Coding  Meeting
+		<p>Coding  Meeting Duration :
 		<input type="numbers" name="code"><br>  </p>
-		<p>Review Meeting
+		<p>Review Meeting Duration :
 		<input type="numbers" name="review"><br>  </p>
-		<p>Retrospective Meeting
+		<p>Retrospective Meeting Duration :
 		<input type="numbers" name="retro"><br>  </p>
 		<button type="submit">Start</button>
 	</form>
-	{{ values }}
+	<p> Meeting Name : {{ values }}</p>
+	<p> {{ meeting }} :{{ timer }} </p>
+
 	</body>
 </html>
