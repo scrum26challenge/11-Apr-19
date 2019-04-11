@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ToDo App</title>
+</head>
+<body>
+	<form action="/create" method="POST">
+		<p>Sprint Name : 
+		<input type="text" name="sprint"><br> </p>
+		<p>Planing Meeting
+		<input type="numbers" name="plan"><br>  </p>
+		<p>Coding  Meeting
+		<input type="numbers" name="code"><br>  </p>
+		<p>Review Meeting
+		<input type="numbers" name="review"><br>  </p>
+		<p>Retrospective Meeting
+		<input type="numbers" name="retro"><br>  </p>
+		<button type="submit">Start</button>
+	</form>
+	{{ values }}
+	</body>
+</html>
